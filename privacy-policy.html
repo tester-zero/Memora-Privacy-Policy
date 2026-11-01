@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Official Privacy Policy for Memora — Visual Note & Photo Organizer (com.onelinestudio.memora). Disclosing data collection, privacy, on-device storage, and Google Play compliance.">
+  <title>Privacy Policy — Memora</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F8F9F7;
+      --card-bg: #FFFFFF;
+      --primary: #536F8F;
+      --primary-hover: #435b77;
+      --primary-light: #E8EEF4;
+      --soft-blue: #E8EEF4;
+      --soft-blue-border: #D8E2EC;
+      --text: #25272A;
+      --text-muted: #585D64;
+      --text-light: #7A818A;
+      --border: #E3E7EB;
+      --badge-bg: #E8EEF4;
+      --badge-text: #3E546E;
+      --accent-green: #2E7D32;
+      --accent-green-bg: #E8F5E9;
+      --shadow-sm: 0 1px 3px rgba(37, 39, 42, 0.04), 0 1px 2px rgba(37, 39, 42, 0.02);
+      --shadow-md: 0 4px 12px rgba(37, 39, 42, 0.05), 0 1px 3px rgba(37, 39, 42, 0.03);
+      --shadow-lg: 0 10px 25px rgba(83, 111, 143, 0.08), 0 4px 10px rgba(37, 39, 42, 0.03);
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 0 16px 64px 16px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    /* Top Navigation Header */
+    header.site-header {
+      padding: 32px 0 24px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(83, 111, 143, 0.2);
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .brand-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .brand-info h1 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .brand-info span {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background-color: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 999px;
+      border: 1px solid var(--soft-blue-border);
+    }
+
+    .header-badge svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: var(--card-bg);
+      border-radius: var(--radius-lg);
+      padding: 44px 40px;
+      margin-bottom: 36px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--soft-blue));
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .pill-tag {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      background: var(--soft-blue);
+      color: var(--primary);
+      border-radius: 6px;
+    }
+
+    .hero-date {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .hero h2 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 34px;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.03em;
+      line-height: 1.25;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 760px;
+      line-height: 1.7;
+    }
+
+    /* Highlights / Quick Facts Grid */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .summary-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .summary-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .summary-card .icon-wrapper {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background-color: var(--soft-blue);
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+
+    .summary-card .icon-wrapper svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    .summary-card h3 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .summary-card p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Layout: TOC + Content */
+    .layout-wrapper {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 36px;
+      align-items: start;
+    }
+
+    /* Table of contents sticky sidebar */
+    aside.toc-sidebar {
+      position: sticky;
+      top: 24px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .toc-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--primary);
+      margin-bottom: 14px;
+    }
+
+    .toc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .toc-list a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      transition: color 0.15s ease, padding-left 0.15s ease;
+      display: block;
+      padding: 4px 0;
+    }
+
+    .toc-list a:hover {
+      color: var(--primary);
+      padding-left: 4px;
+    }
+
+    /* Main Content Area */
+    main.policy-content {
+      background: var(--card-bg);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .section-block {
+      margin-bottom: 40px;
+      scroll-margin-top: 32px;
+    }
+
+    .section-block:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--soft-blue);
+    }
+
+    .section-number {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      background: var(--soft-blue);
+      color: var(--primary);
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    h2.section-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    h3.sub-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 22px 0 10px 0;
+    }
+
+    p {
+      color: var(--text);
+      margin-bottom: 14px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    ul,
+    ol {
+      margin: 12px 0 18px 24px;
+      color: var(--text);
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    li strong {
+      color: var(--text);
+    }
+
+    /* Callout Boxes */
+    .callout {
+      background-color: var(--bg);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .callout.callout-success {
+      background-color: var(--accent-green-bg);
+      border-left-color: var(--accent-green);
+      color: #1B4D20;
+    }
+
+    .callout.callout-blue {
+      background-color: #F1F5F9;
+      border-left-color: var(--primary);
+    }
+
+    .callout strong {
+      font-weight: 600;
+    }
+
+    /* Comparison / Data Table */
+    .data-table-container {
+      overflow-x: auto;
+      margin: 20px 0;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    table.data-table th {
+      background-color: var(--soft-blue);
+      color: var(--primary);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--soft-blue-border);
+      white-space: nowrap;
+    }
+
+    table.data-table td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+      vertical-align: top;
+      background-color: var(--card-bg);
+    }
+
+    table.data-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    table.data-table tr:hover td {
+      background-color: #FAFCFE;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .status-none {
+      background-color: #EFEFEF;
+      color: #555555;
+    }
+
+    .status-local {
+      background-color: #E3F2FD;
+      color: #1565C0;
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background: linear-gradient(145deg, #FFFFFF, var(--bg));
+      border: 1px solid var(--soft-blue-border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin-top: 20px;
+    }
+
+    .contact-card dl {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 10px 16px;
+      font-size: 14px;
+    }
+
+    .contact-card dt {
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .contact-card dd {
+      color: var(--text);
+      word-break: break-all;
+    }
+
+    .contact-card dd a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-card dd a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer.site-footer {
+      margin-top: 48px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .footer-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: #FFFFFF;
+        color: #000000;
+        padding: 0;
+      }
+
+      .toc-sidebar,
+      header.site-header,
+      footer.site-footer {
+        display: none !important;
+      }
+
+      .layout-wrapper {
+        grid-template-columns: 1fr;
+      }
+
+      .hero,
+      main.policy-content {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+      }
+
+      h2.section-title {
+        page-break-after: avoid;
+      }
+
+      .data-table-container {
+        page-break-inside: avoid;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 860px) {
+      .layout-wrapper {
+        grid-template-columns: 1fr;
+      }
+
+      aside.toc-sidebar {
+        display: none;
+      }
+
+      .hero {
+        padding: 30px 24px;
+      }
+
+      main.policy-content {
+        padding: 28px 20px;
+      }
+
+      .hero h2 {
+        font-size: 26px;
+      }
+
+      .contact-card dl {
+        grid-template-columns: 1fr;
+        gap: 6px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <header class="site-header">
+      <a href="#" class="brand">
+        <div class="brand-icon">
+          <img src="logo.png" alt="Memora App Logo" width="44" height="44">
+        </div>
+        <div class="brand-info">
+          <h1>Memora</h1>
+          <span>Visual Note &amp; Photo Organizer</span>
+        </div>
+      </a>
+      <div class="header-badge">
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" />
+        </svg>
+        <span>Google Play Compliant</span>
+      </div>
+    </header>
+
+    <!-- Hero Card -->
+    <section class="hero">
+      <div class="hero-meta">
+        <span class="pill-tag">Privacy Policy</span>
+        <span class="hero-date">Effective Date: November 1, 2026</span>
+        <span class="hero-date">&bull; Version 1.0</span>
+      </div>
+      <h2>Privacy by Design: Your Visual Notes Belong Strictly to You</h2>
+      <p>
+        This Privacy Policy applies specifically to the <strong>Memora</strong> mobile application (Package:
+        <code>com.onelinestudio.memora</code>), developed and provided by <strong>OneLineStudio</strong>. It
+        comprehensively discloses our privacy practices, our strict zero-tracking architecture, and how data is handled
+        on your device.
+      </p>
+    </section>
+
+    <!-- Key Takeaways / Summary Grid -->
+    <section class="summary-grid" aria-label="Key Privacy Facts">
+      <div class="summary-card">
+        <div class="icon-wrapper">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h2v2h-2zm0-10h2v8h-2z" />
+          </svg>
+        </div>
+        <h3>Zero Data Collection</h3>
+        <p>We do not collect names, emails, phone numbers, identifiers, or usage telemetry. No accounts required.</p>
+      </div>
+
+      <div class="summary-card">
+        <div class="icon-wrapper">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-.11.5-.95C8.08 7.14 9.94 6 12 6c2.62 0 4.88 1.86 5.39 4.43l.3 1.5 1.53.11c1.56.1 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z" />
+          </svg>
+        </div>
+        <h3>100% Offline Architecture</h3>
+        <p>Memora does not request the Android Internet permission. The app cannot transmit data over the web.</p>
+      </div>
+
+      <div class="summary-card">
+        <div class="icon-wrapper">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" />
+          </svg>
+        </div>
+        <h3>On-Device Storage Only</h3>
+        <p>All photos, titles, and custom tags reside exclusively in sandboxed, private internal device storage.</p>
+      </div>
+
+      <div class="summary-card">
+        <div class="icon-wrapper">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" />
+          </svg>
+        </div>
+        <h3>No Third-Party Sharing</h3>
+        <p>We do not share, sell, rent, or transfer any user data with advertisers, third-party SDKs, or data brokers.
+        </p>
+      </div>
+    </section>
+
+    <!-- Layout: Sticky Nav + Content -->
+    <div class="layout-wrapper">
+
+      <!-- Table of Contents -->
+      <aside class="toc-sidebar" aria-label="Table of Contents">
+        <div class="toc-title">Contents</div>
+        <nav>
+          <ul class="toc-list">
+            <li><a href="#section-1">1. Application Scope</a></li>
+            <li><a href="#section-2">2. Information Handled</a></li>
+            <li><a href="#section-3">3. How Data is Stored</a></li>
+            <li><a href="#section-4">4. Sharing &amp; Third Parties</a></li>
+            <li><a href="#section-5">5. Device Permissions</a></li>
+            <li><a href="#section-6">6. Data Retention &amp; Deletion</a></li>
+            <li><a href="#section-7">7. Children's Privacy</a></li>
+            <li><a href="#section-8">8. Security Safeguards</a></li>
+            <li><a href="#section-9">9. Policy Updates</a></li>
+            <li><a href="#section-10">10. Contact Us</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Policy Body -->
+      <main class="policy-content">
+
+        <!-- Section 1 -->
+        <section id="section-1" class="section-block">
+          <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">Application Scope &amp; Identity</h2>
+          </div>
+          <p>
+            This Privacy Policy governs the <strong>Memora — Visual Note &amp; Photo Organizer</strong> mobile
+            application (hereinafter referred to as "Memora", "the Application", "we", "our", or "us"), package name
+            <code>com.onelinestudio.memora</code>, published by <strong>OneLineStudio</strong> on the Google Play Store.
+          </p>
+          <p>
+            Memora is created to provide a quiet, distraction-free visual notebook for everyday reference photos (e.g.,
+            receipts, appliance serial numbers, Wi-Fi codes, notes). Because privacy is our core principle, the
+            Application is engineered from the ground up as a standalone, offline utility that does not communicate with
+            external servers.
+          </p>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="section-2" class="section-block">
+          <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Information We Collect and Handle</h2>
+          </div>
+          <p>
+            Memora complies with the principle of strict data minimization. We only process data that you explicitly
+            choose to create or import into the Application.
+          </p>
+
+          <h3 class="sub-title">A. Data Handled Locally on Your Device</h3>
+          <ul>
+            <li>
+              <strong>Visual Notes (Photos):</strong> Images captured via your device camera or selected from your
+              device photo picker upon your explicit action. These images are stored exclusively inside the app's
+              sandboxed local internal directory on your physical device.
+            </li>
+            <li>
+              <strong>Note Metadata:</strong> Titles, custom descriptive tags (e.g., <em>"Receipts"</em>,
+              <em>"Work"</em>, <em>"Home"</em>), and timestamp metadata created by you. This metadata is stored locally
+              in an on-device SQLite / Room database.
+            </li>
+            <li>
+              <strong>User Preferences:</strong> Your selected theme preference (Light Mode or Dark Mode) and custom tag
+              list, saved on your device using Android SharedPreferences.
+            </li>
+          </ul>
+
+          <h3 class="sub-title">B. Data We Do NOT Collect</h3>
+          <div class="callout callout-blue">
+            <strong>What We Never Collect:</strong>
+            <ul style="margin: 8px 0 0 18px;">
+              <li><strong>No Personal Identifiers:</strong> We do not collect names, email addresses, physical
+                addresses, or phone numbers.</li>
+              <li><strong>No Accounts or Logins:</strong> Memora requires no user accounts, passwords, or social
+                authentication.</li>
+              <li><strong>No Device or Advertising Identifiers:</strong> We do not track GAID (Google Advertising ID),
+                Android ID, IMEI, or MAC addresses.</li>
+              <li><strong>No Location Data:</strong> Memora never requests, accesses, or processes GPS or network
+                location data.</li>
+              <li><strong>No Financial or Biometric Data:</strong> No payment details or biometric information are
+                accessed or processed.</li>
+              <li><strong>No Analytics or Telemetry:</strong> No analytics SDKs, session trackers, or telemetry tools
+                are installed.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section id="section-3" class="section-block">
+          <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">How User Data is Stored and Processed</h2>
+          </div>
+          <p>
+            All operations and data processing in Memora occur <strong>100% locally on your device</strong>:
+          </p>
+          <ul>
+            <li>
+              <strong>Internal Sandboxed Storage:</strong> Photos you add to Memora are saved into the application's
+              isolated private files directory (<code>context.filesDir/photos</code>). Other apps on your device cannot
+              access this folder.
+            </li>
+            <li>
+              <strong>Local Database:</strong> Photo records, titles, and tag associations are stored locally in an
+              on-device Room database. No cloud database or remote synchronization is utilized.
+            </li>
+            <li>
+              <strong>Zero Network Transmission:</strong> The Application manifest deliberately omits the
+              <code>android.permission.INTERNET</code> permission. Memora is programmatically barred by the Android
+              operating system from establishing outbound network connections or sending data over the internet.
+            </li>
+            <li>
+              <strong>No Cloud Backups:</strong> System auto-backup is disabled
+              (<code>android:allowBackup="false"</code>) to ensure your reference pictures do not silently upload to
+              external third-party cloud servers without your explicit knowledge.
+            </li>
+          </ul>
+        </section>
+
+        <!-- Section 4 -->
+        <section id="section-4" class="section-block">
+          <div class="section-header">
+            <span class="section-number">04</span>
+            <h2 class="section-title">Data Sharing and Third Parties</h2>
+          </div>
+          <p>
+            In accordance with Google Play Store developer guidelines, we comprehensively disclose how user data is
+            shared:
+          </p>
+          <div class="callout callout-success">
+            <strong>Clear Disclosure:</strong> We do <strong>NOT</strong> share, sell, rent, license, transmit, or
+            disclose any user data, images, metadata, or device information to any third party, business partner,
+            advertising network, analytics provider, or government entity.
+          </div>
+          <p>
+            Memora contains:
+          </p>
+          <ul>
+            <li><strong>Zero Advertising SDKs:</strong> No Google AdMob, Unity, AppLovin, or any commercial ad networks.
+            </li>
+            <li><strong>Zero Analytics Trackers:</strong> No Google Analytics for Firebase, Flurry, Mixpanel, or
+              AppsFlyer.</li>
+            <li><strong>Zero Third-Party Cloud Services:</strong> No AWS, Firebase Cloud Storage, Supabase, or external
+              APIs.</li>
+          </ul>
+        </section>
+
+        <!-- Section 5 -->
+        <section id="section-5" class="section-block">
+          <div class="section-header">
+            <span class="section-number">05</span>
+            <h2 class="section-title">Device Permissions Used by Memora</h2>
+          </div>
+          <p>
+            Memora requests the absolute minimum device capabilities required to fulfill its function as an on-device
+            visual organizer:
+          </p>
+
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Permission / Capability</th>
+                  <th>Type</th>
+                  <th>Purpose &amp; Scope</th>
+                  <th>Data Transmission</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>android.hardware.camera</code></td>
+                  <td>System Intent / Feature (Optional)</td>
+                  <td>Allows you to snap a reference photo using your device's default camera app when you tap the
+                    Camera button.</td>
+                  <td><span class="status-badge status-local">Local Only</span></td>
+                </tr>
+                <tr>
+                  <td>Photo Picker API</td>
+                  <td>System Activity Result</td>
+                  <td>Allows you to securely pick existing images from your gallery to add to Memora without granting
+                    broad media read access.</td>
+                  <td><span class="status-badge status-local">Local Only</span></td>
+                </tr>
+                <tr>
+                  <td><code>FileProvider</code></td>
+                  <td>App-Private Component</td>
+                  <td>Temporarily scopes camera output directly into Memora's private cache for import. Non-exported
+                    (<code>android:exported="false"</code>).</td>
+                  <td><span class="status-badge status-local">Local Only</span></td>
+                </tr>
+                <tr>
+                  <td><code>android.permission.INTERNET</code></td>
+                  <td>Network Access</td>
+                  <td><strong>Not Requested.</strong> The app has zero internet capability.</td>
+                  <td><span class="status-badge status-none">None (Zero Network)</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Section 6 -->
+        <section id="section-6" class="section-block">
+          <div class="section-header">
+            <span class="section-number">06</span>
+            <h2 class="section-title">Data Retention and User Deletion Rights</h2>
+          </div>
+          <p>
+            You possess complete, autonomous ownership over all your data in Memora:
+          </p>
+          <ul>
+            <li>
+              <strong>Single Photo Deletion:</strong> When viewing any photo card, tapping the <strong>Delete</strong>
+              button permanently deletes the image file from internal storage and purges its record from the database.
+            </li>
+            <li>
+              <strong>Bulk Photo Deletion:</strong> Long-pressing photo cards enters multi-selection mode, allowing you
+              to select and permanently remove multiple entries in a single action.
+            </li>
+            <li>
+              <strong>Tag Editing and Removal:</strong> You can edit, rename, or delete tags at any time via the Menu
+              screen. Deleting a tag immediately detaches it from all associated photos.
+            </li>
+            <li>
+              <strong>Total App Data Deletion:</strong> You can clear all data at any time via <em>Android Settings
+                &rarr; Apps &rarr; Memora &rarr; Storage &rarr; Clear Data</em>, or by simply uninstalling the
+              Application. Uninstalling Memora permanently eradicates all stored images, tags, and database records from
+              your device.
+            </li>
+            <li>
+              <strong>No Residual Cloud Copies:</strong> Because Memora does not possess internet access or cloud
+              synchronization, deleted items cannot be recovered from any remote server.
+            </li>
+          </ul>
+        </section>
+
+        <!-- Section 7 -->
+        <section id="section-7" class="section-block">
+          <div class="section-header">
+            <span class="section-number">07</span>
+            <h2 class="section-title">Children's Privacy (COPPA Compliance)</h2>
+          </div>
+          <p>
+            Memora does not target, market to, or knowingly collect any personal information from children under the age
+            of 13 (or the applicable age in your jurisdiction), in accordance with the Children's Online Privacy
+            Protection Act (COPPA) and the Google Play Families Policy.
+          </p>
+          <p>
+            Because the Application operates strictly offline and collects no personal data from any user whatsoever, it
+            poses zero tracking or privacy risks to younger audiences.
+          </p>
+        </section>
+
+        <!-- Section 8 -->
+        <section id="section-8" class="section-block">
+          <div class="section-header">
+            <span class="section-number">08</span>
+            <h2 class="section-title">Technical Security Safeguards</h2>
+          </div>
+          <p>
+            We implement industry-standard software engineering practices to safeguard your visual notes on your device:
+          </p>
+          <ul>
+            <li><strong>Path Traversal Defense:</strong> All file access strictly validates file canonical paths to
+              prevent directory traversal exploits.</li>
+            <li><strong>Input Sanitization:</strong> Titles and custom tags are sanitized to remove control characters
+              and enforce strict size boundaries.</li>
+            <li><strong>Magic Byte Validation:</strong> All imported image files are verified by inspecting header magic
+              bytes (JPEG, PNG, WebP) to prevent malicious executable injection.</li>
+            <li><strong>Memory Bounds Protection:</strong> Bitmap dimensions are checked prior to decoding to prevent
+              memory exhaustion and denial-of-service attempts.</li>
+            <li><strong>Isolated Sandboxing:</strong> Files are stored within Android's private app sandbox, preventing
+              unauthorized access by other installed applications.</li>
+          </ul>
+        </section>
+
+        <!-- Section 9 -->
+        <section id="section-9" class="section-block">
+          <div class="section-header">
+            <span class="section-number">09</span>
+            <h2 class="section-title">Changes to This Privacy Policy</h2>
+          </div>
+          <p>
+            We may periodically update this Privacy Policy to reflect changes in legal requirements or enhancements to
+            our application. When changes occur, the updated policy will be posted with a revised <em>"Effective
+              Date"</em> at the top of this document.
+          </p>
+          <p>
+            We encourage users to review this page periodically. Continued use of Memora following the posting of any
+            updates constitutes your acceptance of the revised terms.
+          </p>
+        </section>
+
+        <!-- Section 10 -->
+        <section id="section-10" class="section-block">
+          <div class="section-header">
+            <span class="section-number">10</span>
+            <h2 class="section-title">Contact Us &amp; Developer Information</h2>
+          </div>
+          <p>
+            If you have any questions, comments, or concerns regarding this Privacy Policy or our privacy practices,
+            please contact us:
+          </p>
+
+          <div class="contact-card">
+            <dl>
+              <dt>Application:</dt>
+              <dd>Memora — Visual Note &amp; Photo Organizer</dd>
+
+              <dt>Package Name:</dt>
+              <dd><code>com.onelinestudio.memora</code></dd>
+
+              <dt>Developer:</dt>
+              <dd>OneLineStudio</dd>
+
+              <dt>Support Email:</dt>
+              <dd><a href="mailto:one.line.studio@yashyadav.me">one.line.studio@yashyadav.me</a></dd>
+
+              <dt>Platform:</dt>
+              <dd>Android (Google Play Store)</dd>
+            </dl>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-left">
+        <span>&copy; 2026 OneLineStudio. All rights reserved.</span>
+      </div>
+      <div>
+        <span>Memora Privacy Policy &bull; Built for Google Play Store Listing</span>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
